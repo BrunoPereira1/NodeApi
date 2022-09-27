@@ -1,2 +1,2 @@
-# api-to-test
-NodeJs Api with Test
+# Node Api
+NodeJs Api using testing paradigms.
