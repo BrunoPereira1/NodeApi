@@ -4,7 +4,7 @@
   "description": "NodeJs Api using testing paradigms.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,10 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.3.0",
     "eslint-plugin-promise": "^6.0.1",
-    "typescript": "^4.8.3"
+    "typescript": "^4.8.3",
+    "vitest": "^0.23.4"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.3"
   }
 }

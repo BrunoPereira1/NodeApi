@@ -20,6 +20,15 @@ export class Schedule {
   }
 
   constructor(props: ScheduleProps) {
+    const { startAt, endsAt } = props;
+
+    if (startAt <= new Date()) {
+      throw new Error("Invalid start date");
+    }
+
+    if (endsAt <= startAt) {
+      throw new Error("Invalid end date");
+    }
     this.props = props;
   }
 }
